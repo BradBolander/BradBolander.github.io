@@ -1,1 +1,28 @@
+input {
+  width: 20%;
+  font-size: 1rem;
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  border-radius: 5px;
+}
 
+.contact-wrapper {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  border: 2px dotted green;
+  padding-left: 40%;
+
+}
+
+#form_send {
+  background-color: rgba(55, 191, 0, 0.75);
+}
+
+h2 {
+  padding-left: 5%;
+  color: rgba(55, 191, 0, 0.75);
+}
