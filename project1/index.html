@@ -9,22 +9,109 @@
     <!-- add scripts -->
     <script src="scripts/jquery.js"></script>
     <script src="scripts/app.js"></script>
-
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
   </head>
   <body>
 
+<div class="intro">
+  <h2>Share Package</h2>
+<input type="button" id="button1" value="Join now!">
+<a href="#myAnchor" rel="" id="anchor1" class="anchorLink"></a>
+</div>
 
+<header>
+<h1>Share Package</h1>
+</header>
+
+<div class="demonstration">
+  <section class="demonstration-tab">
+    <img src="home-icon.png"/>
+  </section>
+
+  <section class="demonstration-tab">
+    <img src="refresh-icon.png"/>
+  </section>
+
+  <section class="demonstration-tab">
+    <img src="pin-map-icon-2.png"/>
+  </section>
+</div>
+
+<div class="target-icon">
+  <img height="50px" width="50px" src="target-icon.png"/>
+</div>
+
+<div class="description">
+
+</div>
+
+<div class="target-icon">
+  <img height="50px" width="50px" src="target-icon.png"/>
+</div>
+
+<div class="content-wrapper">
+  <section class="column">
+
+  </section>
+  <section class="column">
+
+  </section>
+  <section class="column">
+
+  </section>
+</div>
+
+<div class="target-icon">
+  <img height="50px" width="50px" src="target-icon.png"/>
+</div>
+
+
+<a name="myAnchor" id="myAnchor"></a>
   <div class="contact-wrapper">
 
-    <h2>Contact Me!</h2>
+    <h2>Join Share Package</h2>
     <input type="text" id="user_name" placeholder="What is your name?"><br><br>
     <input type="email" id="user_email" placeholder="you@somewhere.net"><br><br>
-    <input type="text" id="user_request" placeholder="How can I help?"><br><br>
+    <input type="text" id="user_address" placeholder="Address"><br><br>
+    <input type="text" id="user_city" placeholder="City"><br><br>
+    <input type="text" id="user_state" placeholder="State"><br><br>
     <input type="text" id="user_number" placeholder="Phone Number"><br><br>
-    <input type="text" id="user_location" placeholder="Location"><br><br>
+    <input type="text" id="user_zip" placeholder="Zip Code"><br><br>
 
     <input type="submit" id="form_send" value="Submit"><br>
+
+    <div class="loading">
+      <img src="482.gif"/>
+    </div>
+
+    <div class="success">
+      <h2>Your message was sent!</h2>
+    </div>
+
+    <div class="error">
+      <h2>Your message failed to send.</h2>
+    </div>
+
+
+
   </div>
 
+<footer>
+<div class="social-media-wrapper">
+  <section class="social-media-tab">
+    <img width="100px" height="100px" src="facebook-icon.png"/>
+  </section>
+
+  <section class="social-media-tab">
+    <img width="100px" height="100px" src="twitter-icon.png"/>
+  </section>
+
+  <section class="social-media-tab">
+    <img width="100px" height="100px" src="google-plus-icon.png"/>
+  </section>
+</div>
+</footer>
+
   </body>
+
 </html>
