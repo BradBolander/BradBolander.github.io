@@ -1,0 +1,243 @@
+// Color variables
+$pastel-red: #FF6961;
+$pastel-blue: #00BBFF;
+$text-color: rgb(56, 54, 70);
+$background-color: #f4f4f4;
+
+
+//Font sizes
+$base-page-size: 16px;
+$heading-size: 2rem;
+$description-size: 1.5rem;
+
+//Font styles
+$header-font: typewriter;
+$body-font: megeon;
+
+//DOM
+body {
+  font-size: $base-page-size;
+}
+
+input {
+  width: 20%;
+  font-size: 1rem;
+  position: relative;
+  float: left;
+  margin-left: 40%;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.intro {
+  background-image: url('../confectionary.png');
+  width: 105%;
+  margin-top: -10%;
+  height: 1500px;
+  background-repeat: repeat;
+  font-family: typewriter;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+#button1 {
+  z-index: 3;
+  margin-top: 5%;
+  background-color: $pastel-red;
+  color: $text-color;
+  border-radius: 15px;
+  position: relative;
+  float: left;
+}
+
+body {
+  background-color: $background-color;
+  // background-image: url('../restaurant.png');
+}
+
+.demonstration {
+width: 50%;
+height: 100px;
+position: relative;
+margin-left: 28%;
+float: left;
+// border: 2px solid blue;
+}
+
+.demonstration-tab {
+  width: 15%;
+  height: 100px;
+  float: left;
+  margin-left: 10%;
+  // border: 2px solid blue;
+}
+
+.column {
+  width: 20%;
+  height: 225px;
+  margin-left: 10%;
+  position: relative;
+  float: left;
+  font-family: $header-font;
+  color: $text-color;
+  font-size: $base-page-size;
+  // border: 2px solid $pastel-blue;
+  border-bottom: 1px solid $pastel-blue;
+}
+
+.column-head {
+  width: 90%;
+  color: $pastel-red;
+  height: 40px;
+  float: left;
+  position: relative;
+  // border: 2px solid $pastel-blue;
+  font-family: $header-font;
+  font-size: $heading-size;
+  padding-top: 5%;
+  padding-left: 10%;
+  border-bottom: 1px solid $pastel-blue;
+
+}
+
+.description {
+  width: 40%;
+  margin-top: 12%;
+  height: 60px;
+  text-align: center;
+  color: $text-color;
+  margin-left: 30%;
+  font-family: $body-font;
+  font-size: $description-size;
+  // border: 2px solid $pastel-blue;
+  position: relative;
+  float: left;
+
+}
+
+.content-wrapper {
+    width: 60%;
+    height: 230px;
+    position: relative;
+    margin-left: 20%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+
+header {
+  position: fixed;
+  height: 150px;
+  margin-top: -5%;
+  margin-left: -5%;
+  z-index: 9999;
+  width: 110%;
+  background-image: url('../confectionary.png');
+  border-bottom: 1px solid $text-color;
+}
+
+.share {
+  float: left;
+  position: relative;
+}
+
+.logo-wrapper {
+padding-top: 4%;
+padding-left: 2%;
+}
+
+
+.logo-wrapper-intro {
+  padding-top: 20%;
+  padding-left: 30%;
+
+}
+
+.package {
+  margin-left: -2%;
+  float: left;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: typewriter;
+  color: $text-color;
+  margin-left: 5%;
+  z-index: 2;
+}
+
+footer {
+  margin-top: 10%;
+  height: 100px;
+  border-top: 1px solid $text-color;
+  margin-left: -5%;
+  position: relative;
+  float: left;
+  width: 110%;
+  background-image: url('../confectionary.png');
+}
+
+
+.heart-icon {
+  margin-left: -2%;
+  position: relative;
+  float: left;
+}
+
+.contact-wrapper {
+  height: 300px;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.social-media-wrapper {
+  width: 15%;
+  height: 100px;
+  position: relative;
+  float: left;
+  margin-left: 45%;
+
+}
+
+.social-media-tab {
+  width:20%;
+  height: 50px;
+  position: relative;
+  padding-top: 10%;
+  float: left;
+  margin-left: 3%;
+
+
+}
+
+#form_send {
+  color: $text-color;
+  background-color: $pastel-red;
+}
+
+h2 {
+  text-align: center;
+  color: $pastel-red;
+
+}
+
+
+// #phone {
+//   display:none;
+//   background: magenta;
+// }
+//
+//
+// #laptop {
+//   display: none;
+//   background: pink;
+// }
+//
+// @media (min-width: $device-phone) {
+//   #phone {
+//     display: block;
+//   }
+//
+// }

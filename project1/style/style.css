@@ -1,3 +1,6 @@
+body {
+  font-size: 16px; }
+
 input {
   width: 20%;
   font-size: 1rem;
@@ -5,173 +8,162 @@ input {
   float: left;
   margin-left: 40%;
   border-radius: 5px;
-  z-index: 3;
-}
-
-h2 {
-  padding-top: 20%;
-}
+  z-index: 3; }
 
 .intro {
-  background-image: url('http://i.imgur.com/hCrSRTN.png');
+  background-image: url("../confectionary.png");
   width: 105%;
   margin-top: -10%;
   height: 1500px;
   background-repeat: repeat;
   font-family: typewriter;
   font-size: 2rem;
-  z-index: 1;
-}
+  z-index: 1; }
 
 #button1 {
   z-index: 3;
   margin-top: 5%;
-  background-color: orange;
-  color: rgba(0, 89, 48, 1);
+  background-color: #FF6961;
+  color: #383646;
+  border-radius: 15px;
   position: relative;
-  float: left;
-}
+  float: left; }
 
 body {
-  background-image: url('http://i.imgur.com/07t2mb2.gif');
-}
+  background-color: #f4f4f4; }
 
 .demonstration {
-width: 50%;
-height: 100px;
-position: relative;
-margin-left: 25%;
-margin-top: 2%;
-border: 2px solid orange;
-float: left;
-background-color: rgba(3, 255, 140, 0.5);
-}
+  width: 50%;
+  height: 100px;
+  position: relative;
+  margin-left: 28%;
+  float: left; }
 
 .demonstration-tab {
-    width: 10%;
-    height: 100px;
-    position: relative;
-    float: left;
-    
-    margin-left: 15%;
-}
+  width: 15%;
+  height: 100px;
+  float: left;
+  margin-left: 10%; }
 
 .column {
   width: 20%;
   height: 225px;
   margin-left: 10%;
-  background-color: rgba(3, 255, 140, 0.5);
   position: relative;
   float: left;
-  border: 2px solid orange;
-}
+  font-family: typewriter;
+  color: #383646;
+  font-size: 16px;
+  border-bottom: 1px solid #00BBFF; }
 
-
+.column-head {
+  width: 90%;
+  color: #FF6961;
+  height: 40px;
+  float: left;
+  position: relative;
+  font-family: typewriter;
+  font-size: 2rem;
+  padding-top: 5%;
+  padding-left: 10%;
+  border-bottom: 1px solid #00BBFF; }
 
 .description {
   width: 40%;
-  margin-top: 2%;
-  height: 100px;
+  margin-top: 12%;
+  height: 60px;
+  text-align: center;
+  color: #383646;
   margin-left: 30%;
-  border: 2px solid orange;
+  font-family: megeon;
+  font-size: 1.5rem;
   position: relative;
-  float: left;
-  background-color: rgba(3, 255, 140, 0.5);
-}
+  float: left; }
 
 .content-wrapper {
-    width: 60%;
-    height: 230px;
-    position: relative;
-    margin-top: 2%;
-    margin-left: 20%;
-    float: left;
-    margin-bottom: 2%;
-}
-
-#map-canvas {
-  height: 200px;
-  width: 200px;
+  width: 60%;
+  height: 230px;
   position: relative;
-}
+  margin-left: 20%;
+  float: left;
+  margin-bottom: 2%; }
 
 header {
-  height: 200px;
-  margin-top: -2%;
+  position: fixed;
+  height: 150px;
+  margin-top: -5%;
   margin-left: -5%;
-  position: relative;
-  width: 105%;
-  background-image: url('http://i.imgur.com/hCrSRTN.png');
-}
+  z-index: 9999;
+  width: 110%;
+  background-image: url("../confectionary.png");
+  border-bottom: 1px solid #383646; }
 
+.share {
+  float: left;
+  position: relative; }
 
+.logo-wrapper {
+  padding-top: 4%;
+  padding-left: 2%; }
+
+.logo-wrapper-intro {
+  padding-top: 20%;
+  padding-left: 30%; }
+
+.package {
+  margin-left: -2%;
+  float: left;
+  position: relative; }
 
 h1 {
-  padding-top: 3%;
   font-size: 3rem;
   font-family: typewriter;
-  color: orange;
-  text-align: center;
-  z-index: 2;
-
-}
+  color: #383646;
+  margin-left: 5%;
+  z-index: 2; }
 
 footer {
-  margin-top: 25%;
+  margin-top: 10%;
   height: 100px;
+  border-top: 1px solid #383646;
+  margin-left: -5%;
   position: relative;
   float: left;
-  width: 100%;
-  background-image: url('http://i.imgur.com/hCrSRTN.png');
-}
-
-.target-icon {
-  width: 25px;
-  height: 25px;
-  margin-left: 48%;
-  position: relative;
-  float: left;
-}
+  width: 110%;
+  background-image: url("../confectionary.png"); }
 
 .heart-icon {
-  width: 200px;
-  height: 200px;
-  margin-left: 40%;
-  border: 2px solid blue;
-  float: left;
-}
+  margin-left: -2%;
+  position: relative;
+  float: left; }
 
 .contact-wrapper {
-  margin-top: -20%;
   height: 300px;
   width: 100%;
   float: left;
-  position: relative;
-}
+  position: relative; }
 
 .social-media-wrapper {
-  width: 100%;
+  width: 15%;
   height: 100px;
   position: relative;
   float: left;
-
-}
+  margin-left: 45%; }
 
 .social-media-tab {
-  width:20%;
-  height: 100px;
+  width: 20%;
+  height: 50px;
   position: relative;
+  padding-top: 10%;
   float: left;
-  margin-left: 13%;
-
-}
+  margin-left: 3%; }
 
 #form_send {
-  color: orange;
-  background-color: rgba(3, 255, 140, 0.5);
-}
+  color: #383646;
+  background-color: #FF6961; }
 
 h2 {
   text-align: center;
-  color: orange;
-}
+  color: #FF6961; }
+
+/*# sourceMappingURL=style.css.map */

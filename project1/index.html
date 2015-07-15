@@ -5,6 +5,7 @@
     <title></title>
     <!-- add stylesheet -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.scss">
 
     <!-- add scripts -->
     <script src="scripts/jquery.js"></script>
@@ -14,14 +15,42 @@
   <body>
 
 <div class="intro">
-  <h2>Share Package</h2>
+  <div class="logo-wrapper-intro">
+    <h1 class="share">Share</h1>
+    <img class="heart-icon" height="100px" width="100px" src="heart-icon.png" alt="" />
+    <h1 class="package"> Package</h1>
+  </div>
 <input type="button" id="button1" value="Join now!">
 <a href="#myAnchor" rel="" id="anchor1" class="anchorLink"></a>
 </div>
 
 <header>
-<h1>Share Package</h1>
+  <div class="logo-wrapper">
+    <h1 class="share">Share</h1>
+    <img class="heart-icon" height="100px" width="100px" src="heart-icon.png" alt="" />
+    <h1 class="package"> Package</h1>
+  </div>
+
+  <div class="social-media-wrapper">
+    <section class="social-media-tab">
+      <img width="50px" height="50px" src="facebook-icon.png"/>
+    </section>
+
+    <section class="social-media-tab">
+      <img width="50px" height="50px" src="twitter-icon.png"/>
+    </section>
+
+    <section class="social-media-tab">
+      <img width="50px" height="50px" src="google-plus-icon.png"/>
+    </section>
+  </div>
 </header>
+
+<div class="description">
+  Share package is a subscription that makes sending goodies
+  back and forth between your loved ones easier than ever!
+
+</div>
 
 <div class="demonstration">
   <section class="demonstration-tab">
@@ -37,33 +66,29 @@
   </section>
 </div>
 
-<div class="target-icon">
-  <img height="50px" width="50px" src="target-icon.png"/>
-</div>
 
-<div class="description">
-
-</div>
-
-<div class="target-icon">
-  <img height="50px" width="50px" src="target-icon.png"/>
-</div>
 
 <div class="content-wrapper">
   <section class="column">
-
+    <section class="column-head">
+      Tab 1
+    </section>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </section>
   <section class="column">
-
+    <section class="column-head">
+      Tab 2
+    </section>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </section>
   <section class="column">
-
+    <section class="column-head">
+      Tab 3
+    </section>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </section>
 </div>
 
-<div class="target-icon">
-  <img height="50px" width="50px" src="target-icon.png"/>
-</div>
 
 
 <a name="myAnchor" id="myAnchor"></a>
@@ -97,19 +122,7 @@
   </div>
 
 <footer>
-<div class="social-media-wrapper">
-  <section class="social-media-tab">
-    <img width="100px" height="100px" src="facebook-icon.png"/>
-  </section>
 
-  <section class="social-media-tab">
-    <img width="100px" height="100px" src="twitter-icon.png"/>
-  </section>
-
-  <section class="social-media-tab">
-    <img width="100px" height="100px" src="google-plus-icon.png"/>
-  </section>
-</div>
 </footer>
 
   </body>
