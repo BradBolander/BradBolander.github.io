@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
   console.log("All resources are loaded");
+  $('.intro').hide();
+  $('.intro').fadeIn(3000);
   $('.loading').hide();
   $('.success').hide();
   $('.error').hide();
@@ -8,17 +10,17 @@ $(document).ready(function() {
   $('#button1').click(function(){
     $('html, body').animate({
         scrollTop: $( $('a').attr('href') ).offset().top
-    }, 500);
+    }, 800);
     return false;
   });
 
   $('.intro').mousedown(function() {
-    $('.intro').slideUp();
+    $('.intro').slideUp(800);
     console.log('intro clicked');
   });
 
   $(window).scroll(function() {
-    $('.intro').slideUp();
+    $('.intro').slideUp(800);
     console.log('intro scrolled');
   });
 
