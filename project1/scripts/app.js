@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  //Startup jQuery
   console.log("All resources are loaded");
   $('.intro').hide();
   $('.intro').fadeIn(3000);
@@ -7,6 +8,7 @@ $(document).ready(function() {
   $('.success').hide();
   $('.error').hide();
 
+  //Scroll page to signup form on button click
   $('#button1').click(function(){
     $('html, body').animate({
         scrollTop: $( $('a').attr('href') ).offset().top
@@ -14,16 +16,25 @@ $(document).ready(function() {
     return false;
   });
 
+  //Intro scroll/click logic
   $('.intro').mousedown(function() {
     $('.intro').slideUp(800);
     console.log('intro clicked');
   });
 
+  app.hasScrolled = 0;
+
   $(window).scroll(function() {
-    $('.intro').slideUp(800);
+
+    if (app.hasScrolled >= 1) {
+      $('.intro').slideUp(800);
+    }
+    app.hasScrolled = app.hasScrolled + 1;
+
     console.log('intro scrolled');
   });
 
+  //Signup form send button
   $('#form_send').on('click', function() {
     var formdata = app.createFormObject();
     console.log('clicked from submit...');
@@ -31,6 +42,8 @@ $(document).ready(function() {
   });
 });
 
+
+//Get form data
 var app = app || {};
 app.createFormObject = function() {
 
@@ -38,15 +51,16 @@ app.createFormObject = function() {
 
   retJson.userName = $('#user_name').val();
   retJson.userEmail = $('#user_email').val();
-  retJson.request = $('#user_request').val();
-  retJson.user_number = $('#user_number').val();
-  retJson.user_location = $('#user_location').val();
+  retJson.userAddress = $('#user_address').val();
+  retJson.userCity = $('#user_city').val();
+  retJson.userState = $('#user_state').val();
+  retJson.userPhone = $('#user_phone').val();
+  retJson.userZip = $('#user_zip').val();
   console.log(retJson);
-
   return retJson;
-
 }
 
+//Send form data
 app.sendEmail = function(emailData) {
   // Display loading info...
   $('.loading').slideDown(); //.show()

@@ -46,31 +46,16 @@ input {
   background-color: $pastel-red;
   color: $text-color;
   border-radius: 15px;
+  width: 150px;
+  height: 50px;
   position: relative;
   float: left;
 }
 
 body {
   background-color: $background-color;
-  // background-image: url('../restaurant.png');
 }
 
-// .demonstration {
-// width: 50%;
-// height: 100px;
-// position: relative;
-// margin-left: 28%;
-// float: left;
-// // border: 2px solid blue;
-// }
-//
-// .demonstration-tab {
-//   width: 15%;
-//   height: 100px;
-//   float: left;
-//   margin-left: 10%;
-//   // border: 2px solid blue;
-// }
 
 .column {
   width: 25%;
@@ -102,6 +87,16 @@ body {
 
 }
 
+.column-text {
+  margin-top: 10%;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  float: left;
+  position: relative;
+
+}
+
 #pin {
   margin-top: -25%;
   margin-left: 15%;
@@ -124,7 +119,7 @@ body {
   text-align: center;
   color: $text-color;
   margin-left: 30%;
-  font-family: $body-font;
+  font-family: $header-font;
   font-size: $description-size;
   // border: 2px solid $pastel-blue;
   position: relative;
@@ -133,7 +128,7 @@ body {
 }
 
 .content-wrapper {
-    width: 95%;
+    width: 100%;
     height: 230px;
     position: relative;
     margin-left: 5%;
@@ -186,8 +181,13 @@ h1 {
 }
 
 footer {
-  margin-top: 10%;
-  height: 100px;
+  padding-top: 30px;
+  margin-top: 20%;
+  font-style: typewriter;
+  color: $pastel-red;
+  font-size: 14px;
+  text-align: center;
+  height: 80px;
   border-top: 1px solid $text-color;
   margin-left: -5%;
   position: relative;
@@ -217,8 +217,25 @@ footer {
   position: relative;
   float: right;
   margin-left: 10%;
+}
 
+.loading {
+  margin-top: 8%;
+  margin-left: 50%;
+}
 
+.error {
+  margin-left: -20%;
+  margin-top: 5%;
+  float: left;
+  position: relative;
+}
+
+.success {
+  margin-left: -20%;
+  margin-top: 5%;
+  float: left;
+  position: relative;
 }
 
 .social-media-tab {
@@ -228,9 +245,6 @@ footer {
   padding-top: 10%;
   float: left;
   margin-left: 3%;
-
-
-
 }
 
 #form_send {
@@ -248,7 +262,7 @@ h2 {
   .social-media-wrapper {
     display: block;
 
-    margin-right: 35px;
+    margin-right: 190px;
     width: 20%;
 
     height: 200px;
@@ -306,6 +320,7 @@ h2 {
     height: 25px;
   }
 
+
   #twitter {
     width: 25px;
     height: 25px;
@@ -321,11 +336,15 @@ h2 {
   }
 
   .column {
+    margin-top: 15%;
     font-size: 14px;
+
   }
 
   .description {
+    margin-top: 35%;
     font-size: $base-page-size;
+
   }
 
   .heart-icon {
@@ -340,7 +359,24 @@ h2 {
   }
 
   footer {
-    margin-top: 20%;
+    margin-top: 40%;
+  }
+
+  .loading {
+    float: left;
+    position: relative;
+    margin-left: -25%;
+    margin-top: 10%;
+  }
+
+  .error {
+    margin: 0 auto;
+    margin-left: 10%;
+  }
+
+  .success {
+    margin: 0 auto;
+    margin-left: 10%;
   }
 
   header {
