@@ -8,6 +8,8 @@ $(document).ready(function() {
   $('.success').hide();
   $('.error').hide();
 
+
+
   //Scroll page to signup form on button click
   $('#button1').click(function(){
     $('html, body').animate({
@@ -16,11 +18,11 @@ $(document).ready(function() {
     return false;
   });
 
-  //Intro scroll/click logic
+  //Into scroll/click logic
   $('.intro').mousedown(function() {
     $('.intro').slideUp(800);
-    console.log('intro clicked');
-  });
+
+});
 
   app.hasScrolled = 0;
 
