@@ -117,7 +117,6 @@ body {
 
 .description {
   width: 40%;
-  margin-top: 18%;
   margin-bottom: 5%;
   height: 60px;
   text-align: center;
@@ -142,7 +141,7 @@ body {
 
 
 header {
-  position: fixed;
+  position: relative;
   height: 150px;
   margin-top: -5%;
   margin-left: -5%;
@@ -268,9 +267,10 @@ h2 {
 @media (max-width: 400px) {
   .social-media-wrapper {
     display: block;
-    margin-right: 200px;
+    margin-right: 190px;
     width: 20%;
-    height: 200px;
+    margin-bottom: 15px;
+    height: 20px;
 
   }
 
@@ -357,7 +357,7 @@ h2 {
   }
 
   .description {
-    margin-top: 35%;
+    margin-top: 5%;
     font-size: $base-page-size;
 
   }
