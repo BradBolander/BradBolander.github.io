@@ -108,7 +108,7 @@ header {
   z-index: 9999;
   width: 110%;
   background-image: url("../confectionary.png");
-  border-bottom: 1px solid rgba(96, 96, 96, 0.1); }
+  border-bottom: 1px solid rgba(96, 96, 96, 0.05); }
 
 .share {
   float: left;
@@ -142,7 +142,7 @@ footer {
   font-size: 14px;
   text-align: center;
   height: 80px;
-  border-top: 1px solid #606060;
+  border-top: 1px solid rgba(96, 96, 96, 0.05);
   margin-left: -5%;
   position: relative;
   float: left;
@@ -209,6 +209,11 @@ h2 {
     margin-right: 200px;
     width: 20%;
     height: 200px; }
+
+  #form_send {
+    color: #606060;
+    margin-left: 38%;
+    font-family: Open Sans; }
 
   .social-media-tab {
     margin-left: 10px;
