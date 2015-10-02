@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brad Bolander</title>
+    <description>Welcome to my portfolio!
+</description>
+    <link>https://bradbolander.github.io/</link>
+    <atom:link href="https://bradbolander.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 02 Oct 2015 15:41:53 -0500</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2015 15:41:53 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Clusters Version 2.0</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/mZDdRyb.png&quot; alt=&quot;http://i.imgur.com/mZDdRyb.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
+        <link>https://bradbolander.github.io/project/portfolio/galaxy/galaxies/javascript/three.js/2015/09/14/project-4.html</link>
+        <guid isPermaLink="true">https://bradbolander.github.io/project/portfolio/galaxy/galaxies/javascript/three.js/2015/09/14/project-4.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>portfolio</category>
+        
+        <category>galaxy</category>
+        
+        <category>galaxies</category>
+        
+        <category>javascript</category>
+        
+        <category>three.js</category>
+        
+      </item>
+    
+      <item>
+        <title>Clusters Version 1.0</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/9F27e7t.png&quot; alt=&quot;http://i.imgur.com/9F27e7t.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Sep 2015 05:34:07 -0500</pubDate>
+        <link>https://bradbolander.github.io/project/portfolio/galaxy/galaxies/javascript/three.js/2015/09/03/project-3.html</link>
+        <guid isPermaLink="true">https://bradbolander.github.io/project/portfolio/galaxy/galaxies/javascript/three.js/2015/09/03/project-3.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>portfolio</category>
+        
+        <category>galaxy</category>
+        
+        <category>galaxies</category>
+        
+        <category>javascript</category>
+        
+        <category>three.js</category>
+        
+      </item>
+    
+      <item>
+        <title>Song City</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/WnXkar3.png&quot; alt=&quot;http://i.imgur.com/WnXkar3.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Aug 2015 05:34:07 -0500</pubDate>
+        <link>https://bradbolander.github.io/project/portfolio/song/city/javascript/ajax/api/2015/08/14/project-2.html</link>
+        <guid isPermaLink="true">https://bradbolander.github.io/project/portfolio/song/city/javascript/ajax/api/2015/08/14/project-2.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>portfolio</category>
+        
+        <category>song</category>
+        
+        <category>city</category>
+        
+        <category>javascript</category>
+        
+        <category>ajax</category>
+        
+        <category>api</category>
+        
+      </item>
+    
+      <item>
+        <title>Share Package</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/FZBL4EG.png&quot; alt=&quot;http://i.imgur.com/FZBL4EG.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Jul 2015 05:34:07 -0500</pubDate>
+        <link>https://bradbolander.github.io/project/portfolio/share/package/javascript/html/css/2015/07/21/project-1.html</link>
+        <guid isPermaLink="true">https://bradbolander.github.io/project/portfolio/share/package/javascript/html/css/2015/07/21/project-1.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>portfolio</category>
+        
+        <category>share</category>
+        
+        <category>package</category>
+        
+        <category>javascript</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+  </channel>
+</rss>
