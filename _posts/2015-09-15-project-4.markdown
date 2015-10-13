@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Clusters Version 2.0"
-description: This application allows users to generate particle clusters of many different colors, shapes, and sizes.
+description: This application allows users to generate particle clusters of many different colors, shapes, and sizes. Created using Node.js, MongoDB, Express, Angular.js, and Three.js
 date:   2015-09-14 10:34:07
 categories: project portfolio galaxy galaxies javascript three.js
 ---

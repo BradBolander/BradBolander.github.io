@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Song City"
-description: This application allows users to search for events by city
+description: This application allows users to search for concerts and events by city. Created using MEAN stack. http://songcity.herokuapp.com/
 date:   2015-08-14 10:34:07
 categories: project portfolio song city javascript ajax api
 ---

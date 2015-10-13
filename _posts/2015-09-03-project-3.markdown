@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Clusters Version 1.0"
-description: This application allows users to generate galaxies
+description: This application allows users to generate galaxies. Created using Ruby, Sinatra, and PostgreSQL.
 date:   2015-09-03 10:34:07
 categories: project portfolio galaxy galaxies javascript three.js
 ---
